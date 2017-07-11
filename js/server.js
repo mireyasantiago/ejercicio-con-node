@@ -3,7 +3,7 @@ var path = require('path');
 var app = express();
 
 app.get('/', (req, res) =>{
-  res.send('hola mundo')
+  res.sendFile()
 });
 
 app.listen(8080);
